@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+           h1{
+        padding: 30px 70px;
+            font-size: 6vh;
+            forced-color-adjust: black;
+            align-items: center;
+    }
+    </style>
+
+<script>
+    function openLightbox(src) {
+document.getElementById('lightbox-img').src = src;
+document.getElementById('lightbox').style.display = 'center';
+}
+
+function closeLightbox() {
+document.getElementById('lightbox').style.display = 'none';
+}
+</script>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our gallery at the Animal Protection Agency. See images and videos of the wildlife we protect and the conservation efforts we are dedicated to.">
+    <meta name="keywords" content="Animal Protection Agency, wildlife conservation, gallery, endangered species, animal protection, nature preservation">
+    <meta name="author" content="Amahle Khuzwayo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="java.js"></script>
+    <title>Animal protection agency - Gallery</title>
+
+   
+</head>
+<body>
+
+    <header>
+        <img src ="images/warren smith.png" height="70" width="70" >
+        <h2 class="logo">Animal protection agency</h2>
+        <ul>
+           
+                <li class="list__item"><a href="Home.html">Home</a></li>
+                <li class="list__item"><a href="AboutUs.html">About us</a></li>
+                <li class="list__item"><a href="Gallery.html">Gallery</a></li>
+                <li class="list__item"><a href="Services.html">services</a></li>
+
+        </ul>
+        <a href="Conatctus.Html"><button>Conact Us</button></a>
+    </header>
+
+</body>
+
+<br>
+<br>
+<br>
+<center>
+    <div class="container">
+    <iframe width="750px" height="550vh" src ="https://www.youtube.com/embed/Q8eh58Z249o?si=g4bsw0nJH5-U4nrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</center>
+
+
+<br>
+<br>
+<h1> Here are some images that might help you have better understanding of what we do and what we are fighting for :</h1>
+    
+
+<br>
+<br>
+<body>
+    
+    <center><h1 style="color: #000000;" class="subheadings-Page">Our image Gallery</h1>
+        <div class="gallery">
+                <img src="images/baby elephant.jpg" onclick="openLightbox('images/design(1).png')">
+                <img src="images/2 rhinos.jpg" onclick="openLightbox('images/design(2).png')">
+                 <img src="images/lions.png" onclick="openLightbox('images/lions.png')">     
+        </div>
+    <br>
+        <div class="gallery">
+            <img src="images/last 2.jpg" onclick="openLightbox('images/design(1).png')">
+            <img src="images/underwater.jpg" onclick="openLightbox('images/design(2).png')">
+             <img src="images/Lion in cage.jpg" onclick="openLightbox('images/lions.png')">     
+    </div>
+    <br>
+    <div class="gallery">
+        <img src="images/68crmyfu0b_Legacy_Circle_African_Elephant_Herd_Feeding.jpg" onclick="openLightbox('images/design(1).png')">
+        <img src="images/rhinos in field.jpg" onclick="openLightbox('images/design(2).png')">
+         <img src="images/man and rhino.jpg" onclick="openLightbox('images/lions.png')">     
+    </div>
+    
+    
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </center>
+</body>
+
+
+
+<br>
+<hr>
+  
+<br>
+<br>
+
+<body>
+    <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Conatctus.Html">Contact US</a></li>
+            </ul>
+        </div>
+        
+
+
+
+    </div>
+    <div class="footerbottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Amahle Khuzwayo</span> </p>
+        </div>
+</footer>
+
+
+</body>
+</html>
